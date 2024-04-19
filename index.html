@@ -1,32 +1,421 @@
-<!-- Home -->
-<section class="home" id="home">
-    <div class="home__container container grid">
-        <img src="assets/img/home.png" alt="" class="home__img">
-        <div class="home__data">
-            <h1 class="home__title">
-                Calm Quest<br> Your Path to Inner Peace
-            </h1>
-            <p class="home__description">
-                A digital bridge to stress relief and mental wellness for university students.
-            </p>
-            <a href="#about" class="button button--flex">
-                Learn More <i class="ri-arrow-right-line"></i>
-            </a>
-        </div>
-    </div>
-</section>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css">
 
-<!-- About -->
-<section class="about section container" id="about">
-    <div class="about__container grid">
-        <img src="assets/img/about.jpg" alt="" class="about__img">
-        <div class="about__data">
-            <h2 class="section__title about__title">
-                Understanding Your Needs<br>
+    <title>Calm Quest</title>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                <img src="./assets/img/Logo.png" alt="">
+                <p>Calm Quest</p>
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">About</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#architecture" class="nav__link">Solution Architecture</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#design" class="nav__link">Software Design</a>
+                    </li>
+                    
+                   
+                    <li class="nav__item">
+                        <a href="#team" class="nav__link">Team</a>
+                    </li>
+                </ul>
+
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+            </div>
+
+            <div class="nav__btns">
+                <!-- Theme change button -->
+                <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-menu-line"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <!-- Home -->
+        <section class="home" id="home">
+            <div class="home__container container grid">
+                <img src="assets/img/uni.jpg" alt="" class="home__img">
+
+                <div class="home__data">
+                    <h1 class="home__title">
+                         Mobile Platform <br> for Student and Counselor Interaction
+                    </h1>
+                    <p class="home__description">
+                        Your path to inner peace
+                    </p>
+                    <a href="https://drive.google.com/file/d/15XWa3j7ABsobVHK-_4HaVs-BjkmOn21C/view?resourcekey" class="button button--flex">
+                            Explore <i class="ri-play-circle-line"></i>
+                    </a><br><br>
+                    
+                </div>
+            </div>
+        </section>
+
+        <!-- About -->
+        <section class="about section container" id="about">
+            <div class="about__container grid">
+                <img src="assets/img/about.jpg" alt="" class="about__img">
+
+                <div class="about__data">
+                    <h2 class="section__title about__title">
+                        Introduction <br>
+                    </h2>
+
+                    <p class="about__description">
+                        Calm Quest is an innovative application aimed at helping university students manage stress by facilitating easier access to professional counseling. It breaks down barriers between students and counselors, allowing for immediate connections in emergencies. The app creates a dynamic environment where students can explore and express their inner thoughts, and it provides counselors with insights derived from user interactions to better understand and assist them. Additionally, Calm Quest includes a feature that enables students to alert counselors about peers in need, further fostering a supportive community.
+</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="features section container">
+            <div class="features__bg">
+                <h2 class="section__title-center">
+                    Key Features <br>
+                </h2>
+        
+                <div class="features__container grid">
+                    <div class="features__card">
+                        <h3 class="features__card-title">Real-Time Interaction</h3>
+                        <p class="features__card-description">
+                            <i class="ri-checkbox-fill about__details-icon"></i>Immediate support through Real-Time Chat and Video Conferencing, ensuring students can always reach a counselor. <br>
+                           
+                            <i class="ri-checkbox-fill about__details-icon"></i>Emergency Response features are integrated to handle urgent situations swiftly.
+                        </p>
+                    </div>
+        
+                    <div class="features__card">
+                        <h3 class="features__card-title">AI-Powered Insights</h3>
+                        <p class="features__card-description">
+                            <i class="ri-checkbox-fill about__details-icon"></i>Daily journaling and interactive MCQs help gather student inputs, which are analyzed using AI for sentiment analysis and emotion detection. <br>
+                            <i class="ri-checkbox-fill about__details-icon"></i>This advanced analysis helps tailor the counseling experience to each student's specific needs.
+                        </p>
+                    </div>
+        
+                    <div class="features__card">
+                        <h3 class="features__card-title">Peer Support</h3>
+                        <p class="features__card-description">
+                            <i class="ri-checkbox-fill about__details-icon"></i>Enables students to support each other by sending alerts to counselors when a peer is in distress. <br>
+                            <i class="ri-checkbox-fill about__details-icon"></i>This system strengthens the community and enhances the support network within the university.
+                        </p>
+                    </div>
+        
+                    <div class="features__card">
+                        <h3 class="features__card-title">Comprehensive User Interface</h3>
+                        <p class="features__card-description">
+                            <i class="ri-checkbox-fill about__details-icon"></i>Dedicated mobile app interfaces for students and counselors, and a web interface for administrators, streamline interaction and management. <br>
+                            <i class="ri-checkbox-fill about__details-icon"></i>Appointment scheduling integrated directly within the app for convenient planning and reminders.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+                
+
+        <section class="features section container">
+            <div class="features__bg">
+                <h2 class="section__title-center">
+                    Impacts <br>
+                </h2>
+        
+                <div class="features__container grid">
+                    <div class="features__card">
+                        <h3 class="features__card-title">Reducing Social Stigma</h3>
+                        <p class="features__card-description">
+                            <i class="ri-checkbox-fill about__details-icon"></i>Calm Quest addresses the social stigma associated with seeking mental health support, making it more accessible and acceptable for students. <br>
+                            <i class="ri-checkbox-fill about__details-icon"></i>Enhances openness and willingness among students to seek help.
+                        </p>
+                    </div>
+        
+                    <div class="features__card">
+                        <h3 class="features__card-title">Enhanced Well-being</h3>
+                        <p class="features__card-description">
+                            <i class="ri-checkbox-fill about__details-icon"></i>Facilitates faster access to mental health resources, reducing feelings of isolation and significantly improving overall mental health. <br>
+                            <i class="ri-checkbox-fill about__details-icon"></i>Empowers students with tools and support to manage their emotional and psychological well-being.
+                        </p>
+                    </div>
+        
+                    <div class="features__card">
+                        <h3 class="features__card-title">Empowering Peer Support</h3>
+                        <p class="features__card-description">
+                            <i class="ri-checkbox-fill about__details-icon"></i>The peer alert system allows students to actively participate in the wellness community by notifying counselors about peers showing signs of distress. <br>
+                            <i class="ri-checkbox-fill about__details-icon"></i>This proactive approach helps in timely intervention and support.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+    </section>
+
+        <!-- Architecture -->
+        <section class="archi section container" id="architecture">
+            <h2 class="section__title-center">
+                Solution Architecture <br>
             </h2>
-            <p class="about__description">
-                University life brings challenges; Calm Quest is here to help you tackle them by breaking down barriers to professional mental health support. Discover a platform that respects your time constraints, combats social stigma, and enhances your awareness and access to care.
+            <div class="archi_container grid">
+                <article class="archi_card">
+                    <center><img src="assets/img/highlevel.png" alt="" class="archi_img"></center>
+                    <h3 class="archi_title">High Level Architecture</h3><br>
+                    
+                </article>
+                <article class="archi_card">
+                    <center><img src="assets/img/techstack.png" alt="" class="archi_img"></center>
+                    <h3 class="archi_title">Tech Stack</h3><br>
+                    
+                </article>
+            </div>
+        </section>
+
+        <!-- Design -->
+        <section class="design section container" id="design">
+            <h2 class="section__title-center">
+                Hardware and Software designs <br>
+            </h2>
+            <p class="design_description">
+                Figma wireframes of the mobile application
             </p>
-        </div>
-    </div>
-</section>
+            <br>
+            <p class="design_description_small">
+                Student Interface
+            </p>
+            <div class="design_container grid">
+                <article class="design_card">
+                    <img src="assets/img/ui01.png" alt="" class="design_img">
+                    </article>
+                <article class="design_card">
+                    <img src="assets/img/ui02.png" alt="" class="design_img">
+                    
+                </article>
+                <article class="design_card">
+                    <img src="assets/img/ui03.png" alt="" class="design_img">
+                    
+                </article>
+                <article class="design_card">
+                    <img src="assets/img/ui04.png" alt="" class="design_img">
+                    
+                </article>
+                <article class="design_card">
+                    <img src="assets/img/ui05.png" alt="" class="design_img">
+                    
+                </article>
+                <article class="design_card">
+                    <img src="assets/img/ui06.png" alt="" class="design_img">
+                    
+                </article>
+                <article class="design_card">
+                    <img src="assets/img/ui07.png" alt="" class="design_img">
+                    
+                </article>
+
+                
+            </div>
+            <p class="design_description_small">
+                Counselor Interface
+            </p>
+            <div class="design_container grid">
+                <article class="design_card">
+                    <img src="assets/img/ui08.png" alt="" class="design_img">
+                    </article>
+                <article class="design_card">
+                    <img src="assets/img/ui09.png" alt="" class="design_img">
+                    
+                </article>
+                <article class="design_card">
+                    <img src="assets/img/ui10.png" alt="" class="design_img">
+                    
+                </article>
+                <article class="design_card">
+                    <img src="assets/img/ui11.png" alt="" class="design_img">
+                    
+                </article>
+                
+
+                
+            </div>
+            
+        </section>
+
+        <!-- Team -->
+        <section class="team" id="team">
+        <div class="responsive-container-block outer-container">
+            <div class="responsive-container-block inner-container">
+                <h2 class="section__title-center">
+                    Team<br>
+                </h2>
+                <p class="design_description">
+                    Team Members
+                </p><br>
+              <div class="responsive-container-block">
+                <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 team-card-container">
+                    <div class="team-card">
+                        <div class="img-wrapper">
+                          <center><img class="team-img circular-img" src="./assets/img/Sandeep.jpg"></center>
+                        </div>
+                        <br>
+                        <p class="text-blk name">
+                          D.M.G.S. Dassanayake
+                        </p>
+                        
+                        <div class="social-media-links">
+                          <a href="https://github.com/G5andeepD" target="_blank">
+                              <i class="ri-github-fill"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/sandeep-dassanayake-37b940244" target="_blank">
+                              <i class="ri-linkedin-box-fill"></i>
+                            </a>
+                            <a href="mailto:e19063@eng.pdn.ac.lk" target="_blank">
+                              <i class="ri-mail-fill"></i>
+                            </a>
+                        </div>
+                      </div>
+                </div>
+                <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 team-card-container">
+                    <div class="team-card">
+                        <div class="img-wrapper">
+                          <center><img class="team-img circular-img" src="./assets/img/Praveen.jpeg"></center>
+                        </div>
+                        <br>
+                        <p class="text-blk name">
+                          D. M. U. P. Sumanasekara
+                        </p>
+                        
+                        <div class="social-media-links">
+                          <a href="https://github.com/G5andeepD" target="_blank">
+                              <i class="ri-github-fill"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/sandeep-dassanayake-37b940244" target="_blank">
+                              <i class="ri-linkedin-box-fill"></i>
+                            </a>
+                            <a href="mailto:e19063@eng.pdn.ac.lk" target="_blank">
+                              <i class="ri-mail-fill"></i>
+                            </a>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 team-card-container">
+                    <div class="team-card">
+                        <div class="img-wrapper">
+                          <center><img class="team-img circular-img" src="./assets/img/Buddhi.jpg"></center>
+                        </div>
+                        <br>
+                        <p class="text-blk name">
+                          W. M. B. S. K. Wijenayake
+                        </p>
+                        
+                        <div class="social-media-links">
+                          <a href="https://github.com/G5andeepD" target="_blank">
+                              <i class="ri-github-fill"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/sandeep-dassanayake-37b940244" target="_blank">
+                              <i class="ri-linkedin-box-fill"></i>
+                            </a>
+                            <a href="mailto:e19063@eng.pdn.ac.lk" target="_blank">
+                              <i class="ri-mail-fill"></i>
+                            </a>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 team-card-container">
+                    <div class="team-card">
+                        <div class="img-wrapper">
+                          <center><img class="team-img circular-img" src="./assets/img/Thurini.jpg"></center>
+                        </div>
+                        <br>
+                        <p class="text-blk name">
+                          S. M. T. N. Samarathunge
+                        </p>
+                        
+                        <div class="social-media-links">
+                          <a href="https://github.com/G5andeepD" target="_blank">
+                              <i class="ri-github-fill"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/sandeep-dassanayake-37b940244" target="_blank">
+                              <i class="ri-linkedin-box-fill"></i>
+                            </a>
+                            <a href="mailto:e19063@eng.pdn.ac.lk" target="_blank">
+                              <i class="ri-mail-fill"></i>
+                            </a>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 team-card-container">
+                    <div class="team-card">
+                        <div class="img-wrapper">
+                          <center><img class="team-img circular-img" src="./assets/img/Janith.jpeg"></center>
+                        </div>
+                        <br>
+                        <p class="text-blk name">
+                          Janith C. Yapa
+                        </p>
+                        
+                        <div class="social-media-links">
+                          <a href="https://github.com/G5andeepD" target="_blank">
+                              <i class="ri-github-fill"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/sandeep-dassanayake-37b940244" target="_blank">
+                              <i class="ri-linkedin-box-fill"></i>
+                            </a>
+                            <a href="mailto:e19063@eng.pdn.ac.lk" target="_blank">
+                              <i class="ri-mail-fill"></i>
+                            </a>
+                        </div>
+                      </div>
+                  </div>
+              </div>
+              
+            
+          </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer section">
+        <!-- <div class="footer__container container grid">
+            <div class="footer__content"><center>
+                <a href="https://www.ce.pdn.ac.lk/"><h3 class="footer__title"><i class="ri-link"></i> Department of Computer Engineering</h3></a>
+            </center></div>
+            <div class="footer__content"><center>
+                <a href="https://eng.pdn.ac.lk/"><h3 class="footer__title"><i class="ri-link"></i> Faculty of Engineering</h3></a>
+            </center></div>
+            <div class="footer__content"><center>
+                <a href="https://github.com/cepdnaclk/e19-3yp-beehive-monitoring-system/tree/main"><h3 class="footer__title"><i class="ri-link"></i> Project Repository</h3></a>
+            </center></div>
+        </div> -->
+        <p class="footer__copy">&#169; Cookie Bytes. All rights reserved</p>
+    </footer>
+
+    <!-- Scroll Up -->
+    <a href="#" class="scrollup" id="scroll-up"> 
+        <i class="ri-arrow-up-fill scrollup__icon"></i>
+    </a>
+
+    <!-- Main.js -->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
