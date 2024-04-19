@@ -248,6 +248,12 @@ body.dark-theme {
   font-size: 1.25rem;
   cursor: pointer;
 }
+.nav_title{
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #000000;
+  margin-left: 10px;
+}
 
 @media screen and (max-width: 767px) {
   .nav__menu {
@@ -746,6 +752,7 @@ body.dark-theme {
   .section-head-text {
     text-align: center;
   }
+  
 }
 
 /* FOOTER */
@@ -813,7 +820,7 @@ body.dark-theme {
   }
 
   .design_container {
-    grid-template-columns: 0.6fr;
+    grid-template-columns: repeat(1, 1fr);
     justify-content: center;
   }
   .features__bg{
@@ -821,6 +828,10 @@ body.dark-theme {
   }
   .features__card{
     padding: 1.5rem;
+  }
+  .nav__logo img {
+    width: 60px; /* Adjust this value as needed */
+    height: auto;
   }
 }
 
@@ -832,6 +843,15 @@ body.dark-theme {
   .features__container{
     grid-template-columns: repeat(2, 1fr);
   }
+  .design_container {
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+  }
+  .nav__logo img {
+    width: 70px; /* Adjust this value as needed */
+    height: auto;
+  }
+  
 }
 
 @media screen and (min-width: 767px) {
@@ -872,6 +892,14 @@ body.dark-theme {
   }
   .footer__container{
     column-gap: 3rem;
+  }
+  .design_container {
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+  }
+  .nav__logo img {
+    width: 75px; /* Adjust this value as needed */
+    height: auto;
   }
 }
 
@@ -942,6 +970,14 @@ body.dark-theme {
   .archi_img {
     width: 600px;
   }
+  .design_container {
+    grid-template-columns: repeat(7, 1fr);
+    justify-content: center;
+  }
+  .nav__logo img {
+    width: 100px; /* Adjust this value as needed */
+    height: auto;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -962,6 +998,14 @@ body.dark-theme {
 
   .archi_img {
     width: 700px;
+  }
+  .design_container {
+    grid-template-columns: repeat(7, 1fr);
+    justify-content: center;
+  }
+  .nav__logo img {
+    width: 100px; /* Adjust this value as needed */
+    height: auto;
   }
 }
 
@@ -997,6 +1041,25 @@ body.dark-theme {
 		font-weight: bold;
 		text-align: left;
 	}
+  .design_container {
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+  }
+  .about__container.grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media(max-width: 576px){
+	
+  .design_container {
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+  }
+  .nav__logo img {
+    width: 60px; /* Adjust this value as needed */
+    height: auto;
+  }
 }
 
 
