@@ -142,6 +142,9 @@ body.dark-theme {
   color: rgb(255, 255, 255);
 }
 
+.dark-theme .nav_title{
+  color: #ffffff;
+}
 .dark-theme .eportfolio{
   color: #c8c8c8;
 }
